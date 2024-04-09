@@ -1,0 +1,925 @@
+html {
+    height: 100% !important;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 150%;
+    box-sizing: border-box;
+
+}
+
+burgerIcon {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+burger {
+    display: none;
+}
+
+
+/*----------------------------------------- card codes ------------------------------------*/
+.container3 {
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    margin-top: 30px;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: inherit;
+
+}
+
+
+.p3 {
+    /* Luxuirous */
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 20px;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #73777B;
+}
+
+.p4 {
+    /* Best Rooms */
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 150%;
+    /* or 36px */
+    text-align: center;
+    color: #000000;
+}
+
+.container3 .line {
+    width: 10%;
+    height: 2px;
+    background: #000000;
+    margin-top: 10px;
+}
+
+.cards {
+
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+blockImg img {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+
+card {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.18);
+    border-radius: 19px;
+    margin-top: 30px;
+    background-position: bottom;
+}
+
+detailsBlock {
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+detailsBlock p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+card rate {
+    margin-top: 10px;
+}
+
+card rate img {
+    width: 20px;
+}
+
+detailsBlock h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+detailsBlock price {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+detailsBlock button {
+    background: #15133C;
+    border-radius: 7px;
+    width: 199px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.orange2 {
+    width: 262px;
+    height: 59px;
+    left: 591px;
+    top: 609px;
+    margin: 20px 0px;
+    background: #ffcc00;
+    border-radius: 7px;
+    border: none;
+    color: rgb(1, 1, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+
+
+/*----------------------------------------- card codes ends ------------------------------------*/
+/* nav style start here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+    height: 90px;
+    background-color: #15133C;
+    align-items: center;
+
+}
+
+nav form {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+nav form input {
+    padding: 10px;
+    width: 20%;
+    font-size: 13px;
+    border-radius: 7px;
+    border: none;
+}
+
+nav form input[type="submit"] {
+    color: white;
+    background-color: #2F414B;
+    font-weight: 500px;
+}
+
+nav form input[type="search"] {
+    width: 70%;
+    margin-right: 10px;
+}
+
+nav img {
+    width: 5%;
+
+}
+
+links {
+    margin-right: auto;
+    margin-left: 20px;
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+}
+
+links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+/* nav style ends here */
+
+/* footer style start here */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: auto;
+    height: 400px;
+    background-color: #15133C;
+    color: white;
+    margin-top: auto;
+}
+
+footer column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3 {
+    margin-top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+a.captions-links {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 163.15%;
+    color: #BBC8D4;
+    text-decoration: none;
+}
+
+footer column.big {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+
+footer column.big form {
+    margin-top: 50px;
+}
+
+footer column.big form input[type="email"] {
+    width: 80%;
+    background: #FFFFFF;
+    border: 2px solid #BBC8D4;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+column:nth-of-type(1) img {
+    width: 50px;
+    margin-top: 35px;
+}
+
+column p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 163.15%;
+    color: #BBC8D4;
+    max-width: 199px;
+    margin-top: 20px;
+}
+
+footer media {
+    margin-top: 20px;
+}
+
+footer column.big h3 {
+    margin-top: 44px;
+}
+
+footer media img {
+    margin-right: 5px;
+}
+
+/* footer style ends here */
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+/* first page section */
+
+div.info {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: auto;
+    padding: 30px;
+}
+
+div.content {
+    width: 50%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+div.content p {
+    width: 80%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 160%;
+}
+
+div.content .line {
+    width: 80%;
+    height: 4px;
+    background: #FF9129;
+}
+
+div.content h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+div.content rate {
+    margin-top: 10px;
+}
+
+div.content .price {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+div.content form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.upper-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+div.content form input[type="submit"] {
+    background: #15133C;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+}
+
+div.content form lable {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+
+
+
+
+div.picture {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+div.picture img {
+    width: 100%;
+}
+
+/* first page section ends */
+
+/*comment section start */
+comment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+comment h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+comment div.line2 {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.personImage {
+
+    width: 10%;
+
+}
+
+
+
+.comment {
+    display: flex;
+    margin: 2% 0px;
+}
+
+
+
+.details {
+    width: 80%;
+}
+
+.rate {
+    display: flex;
+    width: 20%;
+}
+
+.rate img {
+    width: 20px;
+    height: 20px;
+}
+
+.nameRate {
+    display: flex;
+    width: 60%;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+
+.personImage img {
+
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+conservation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+infoPerson {
+    margin-bottom: 30px;
+}
+
+conservation form button {
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    border-radius: 7px;
+    background: #73777B;
+    border: none;
+    color: white;
+}
+
+comment h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 163.15%;
+
+
+}
+
+.conver {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0px;
+}
+
+.conver h4 {
+    margin: 30px 0px;
+}
+
+
+
+
+/* media quries for tablet */
+@media (max-width: 1024px) {
+    card {
+        width: 45%;
+    }
+
+    .cards {
+        padding: 20px;
+    }
+
+    .nameRate {
+        width: 100%;
+    }
+
+    .nameRate h4 {
+        font-size: 15;
+    }
+
+    .content p {
+        margin-top: 30px;
+    }
+
+    .personImage {
+        width: 20%;
+    }
+
+    .details {
+        width: 70%;
+    }
+
+    /* nav start tablet*/
+    nav {
+        padding: 20px;
+    }
+
+    links a {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    nav form input {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    /* nav end tablet*/
+
+    div.content form {
+        width: 95%;
+    }
+
+    div.info {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    div.picture img {
+        width: 100%;
+
+    }
+
+    div.picture {
+        margin-top: 90px;
+        width: 100%;
+    }
+
+    div.content form {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.upper-form {
+        width: 100%;
+    }
+
+
+
+    /* .conver .personImage {
+        margin-right: 120px;
+    } */
+
+    div.buttom-form {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    div.content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*footer start tablet*/
+    footer {
+        padding: 20px;
+    }
+
+    footer h3 {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    a.captions-links {
+        font-size: 13px;
+    }
+
+    column:nth-of-type(1) p {
+
+        font-size: 13px;
+
+    }
+
+    footer column.big form input[type="email"] {
+
+        padding: 8px;
+    }
+
+    /*footer ends tablet*/
+
+}
+
+/* media quries between tablet and phone */
+@media (max-width: 750px) {
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    blockimg {
+        width: 100%;
+
+    }
+
+    blockImg img {
+        border-radius: 17px 17px 0px 0px;
+    }
+
+
+    card {
+        width: 80%;
+    }
+
+    /* nav start between tablet and phone*/
+    nav {
+        padding: 10px;
+    }
+
+    links a {
+        margin-left: 10px;
+        font-size: 9px;
+    }
+
+    nav form input {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    /* nav end between tablet and phone*/
+
+    /* footer start between tablet and phone*/
+    footer {
+        padding: 10px;
+        height: 280px;
+    }
+
+    footer h3 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer column.big h3 {
+        margin-top: 10px;
+    }
+
+    a.captions-links {
+        font-size: 10px;
+    }
+
+    column:nth-of-type(1) p {
+
+        font-size: 10px;
+    }
+
+    footer column img.logoFooter {
+        margin-top: 10px;
+    }
+
+    /* footer ends between tablet and phone*/
+}
+
+/* media quries for phone */
+@media (max-width: 550px) {
+
+    .conver {}
+
+    div.info {
+        padding: 10px;
+    }
+
+    div.details {
+        width: 100%;
+    }
+
+    div.comment {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 5% 0px;
+
+    }
+
+
+
+    .nameRate {
+        width: 80%;
+    }
+
+    comment {
+        padding: 20px;
+    }
+
+
+
+    /* nav phone start*/
+    links {
+        display: none;
+    }
+
+    burgerIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+
+    }
+
+    nav img {
+        width: 20%;
+    }
+
+    burgerIcon img {
+        width: 40%;
+    }
+
+    nav form {
+        display: none;
+    }
+
+    burger {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: #15133C;
+
+    }
+
+    burger a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    burger ul {
+        display: block;
+        width: 100%;
+    }
+
+    burger ul li {
+        list-style-type: none;
+        padding: 10px;
+        display: block;
+        border: 1px solid white;
+        width: 100%;
+
+    }
+
+    burger form {
+        display: flex;
+        justify-content: center;
+    }
+
+    burger form input {
+        padding: 10px;
+        width: 20%;
+        font-size: 12px;
+        border-radius: 7px;
+        border: none;
+    }
+
+    burger form input[type="submit"] {
+        color: white;
+        background-color: #2F414B;
+        font-weight: 500px;
+    }
+
+    burger form input[type="search"] {
+        width: 60%;
+        margin-right: 10px;
+    }
+
+    burger {
+        display: none;
+    }
+
+    /* nav phone ends*/
+
+    /* footer phone start*/
+    footer {
+
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        background-color: #15133C;
+        color: white;
+        margin-top: auto;
+    }
+
+    footer column {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    footer column.big {
+        width: 100%;
+    }
+
+    footer column.big form {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+    footer input[type="email"] {
+        width: 100%;
+
+    }
+
+    /* footer phone ends*/
+
+
+
+}

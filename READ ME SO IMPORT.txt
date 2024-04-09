@@ -1,0 +1,28 @@
+ready users to login:
+
+abood2001 - admin
+Pass:abooooooD&2010
+
+aliJasem - regular
+Pass:alijaseM#2006
+
+mohmadEsa - regular
+Pass:123ABc@mohmaded
+
+<!--- read me please -->
+if you would like to change the type of user you can do it 
+from the data base by add to "type" filed in "users" table "admin" to user that you need.
+
+- if you try to open any page without login or sign up it will get you automaticuly to the "SignUP.php" page.
+- admin users can access to "addItem.php" page other users cannot.
+- access to room page can only done through "homePage.php", "findPassion.php" because the id of room is send through $_GET.
+- all inputs are validated please check it and inform me if there is any problem.
+- please connect the buttoms to it's locaiton by adding an href for them.
+- the project is almost finshed only Ajex part is still and we work on it.
+
+
+<!---- best wishes your brother abdulla ---->
+
+
+
+
